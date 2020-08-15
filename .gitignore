@@ -11,6 +11,9 @@
 *.mod
 *.smod
 
-# libraries
+# outputdata
 outputdata/*.csv
+
+# to keep directory outputdata but empty
+!outputdata/.gitkeep
 
