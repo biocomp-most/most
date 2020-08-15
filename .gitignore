@@ -12,5 +12,5 @@
 *.smod
 
 # libraries
-outputdata/*
+outputdata/*.csv
 
