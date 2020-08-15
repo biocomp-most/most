@@ -1,0 +1,3 @@
+Time	Mean	SD
+GRT	1980	900
+Spit	21	10

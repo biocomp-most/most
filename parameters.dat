@@ -1,0 +1,116 @@
+COMMENTS
+--------
+Lines without a semi-colon are comments.
+The text before the semi-colon is comment.
+Parameter values start after semi-colon up to the end of line and are separated by spaces or tabs.
+The order of lines containing a semi-colon cannot be deleted and the order important and must not be changed.
+
+ 
+Text file directories 
+-----------
+input_dir 		: ./inputdata/
+output_dir 		: ./outputdata/
+
+Input files 
+-----------
+MCP 1          : MCPJan18.csv
+MCP 2          : MCPFeb18.csv
+MCP 3          : MCPMar18.csv
+MCP 4          : MCPApr17.csv
+MCP 5          : MCPMay17.csv
+MCP 6          : MCPJun17.csv
+MCP 7          : MCPJul17.csv
+MCP 8          : MCPAug18.csv
+MCP 9          : MCPSep18.csv
+MCP 10          : MCPOct18.csv
+MCP 11          : MCPNov17.csv
+MCP 12          : MCPDec17.csv
+NoGoFile	     : MCP2.csv
+Sleeping sites   : Sleeping_sites.txt  
+FruitTreesFilePeriod1: Feeding_area_Mars-July17.txt
+FruitTreesFilePeriod2: Feeding_area_Nov17-Mar18.txt
+FruitTreesFilePeriod3: Feeding_area_Aug-Oct18.txt 
+FAI_DEF          : FAI_DEF.csv
+Bed_wake-up_Time : Bed_wake-up_Time.txt
+
+
+Output files 
+-----------
+DefecationPointsFile : defecation_points.csv
+SpittedPointsFile : spitted_points.csv
+GeneratedWeeksXYFile : GeneratedWeeksXYFile.csv
+week summary 		 : week_summary_File.csv
+rejected weeks      : rejected_weeks_File.csv
+rejected weeks summary : rejected_days_summary.csv
+
+
+
+Step length parameters
+----------------------
+                state 1      	 state 2      		state 3
+mean   :  		9.65189805   	 3.995504e+01		7.947138e+01
+sd     :  		7.02430354       2.558786e+01 		3.530033e+01
+zero-mass :		0.01116115 	     9.999717e-09 		9.997737e-09
+
+
+Turning angle parameters
+------------------------
+                  state 1     	state 2     		state 3
+mean  :      	-1.72498586		-0.03915711 		-0.04775322
+concentration :  0.09918652 	 0.85652582 		1.81944941
+
+Regression coeffs
+-----------------
+                      1> 2       1 -> 3       2 -> 1       2 -> 3       3 -> 1       3 -> 2
+intercept Beta0 :   -1.2275761   -0.8069870   -0.5999504   -1.0224487   -1.7038661   -1.67548588
+FAI_DEF  Beta 1 :    0.1645379    -0.5345092   -0.4481018   -0.2254424   -0.5781648   0.04036382
+
+Execution month  : 12
+
+Group generation
+----------------
+Number of runs (weeks) to be generated  : 100
+Maximum of runs (weeks) rejected : 10000
+Maximum of step trials per week : 10000
+State at start  : 1
+Number of days par week : 7
+step duration (minutes) :  15
+distance from the nest to be considered in the nest (minimum 2) : 75
+max tree distance for feeding (meter) : 25
+max numbers of feedings a day : 20
+feeding duration at tree : 10
+number of minutes before end of day for searching nest : 30
+
+Normal distribution for transit time
+between feeding and defecation/spitting
+------------------------------------
+Gut transit mean : 1980
+Gut transit standard deviation : 900
+Gut transit SD multiplier for limit : 2.0
+Cheek pouch retention mean : 21
+Cheek pouch retention standard deviation : 10
+Cheek pouch retention SD multiplier fot limit : 2.0
+----------------------
+
+Execution tests
+---------------
+display parameters 			: false
+display Fruit Trees table 	: false
+display states parameters 	: false
+display entry and exit bed times : false
+display sleeping sites 		: false
+display FAI_DEF 			: false
+display test calculations routines : false
+
+display defecation calculations details (output file larger) : true
+
+
+
+
+
+
+
+
+
+
+
