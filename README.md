@@ -12,7 +12,8 @@ Directories content
 
 COMPILATION
 ===========
-The program was developed on NIC4 Ceci Linux computer cluster of ULiège : http://www.ceci-hpc.be/ using Intel Fortan v14 compiler. Newer versions of the compiler should work but have not been tested.
+Computational resources have been provided by the Consortium des Équipements de Calcul Intensif (CÉCI), funded by the Fonds de la Recherche Scientifique de Belgique (F.R.S.-FNRS) under Grant No. 2.5020.11 and by the Walloon Region : http://www.ceci-hpc.be/
+The program was developed on Ceci Linux computer cluster of ULiège using Intel Fortan v14 compiler. Newer versions of the compiler should work but have not been tested.
 
 https://software.intel.com/content/www/us/en/develop/tools/compilers/fortran-compilers.html
 
